@@ -1,19 +1,23 @@
-import './style/App.css'
-import Header from './components/header'
-import Rectangle1 from './components/Rectangle1'
-import Home from './components/home'
-import Header2 from './components/header2'
+import React from "react";
+import Layout from "./components.jsx/Layout";
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
-function App() {
-
+export default function App() {
   return (
-    <>
-      <Header></Header>
-      <Rectangle1></Rectangle1>
-      <Header2 />
-      <Home />;
-    </>
-  )
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
-
-export default App
