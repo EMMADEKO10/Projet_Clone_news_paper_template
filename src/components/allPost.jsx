@@ -16,7 +16,7 @@ export default function AllPost(){
                 <div className="flex items-center gap-5">
                     <div className="flex items-center gap-3">
                         <div className="lightgray 50% / cover no-repeat] w-9 h-9 rounded-full bg-[url(<path-to-image>)," />
-                        <div className="Sans'] text-[#97989f] font-['font-medium leading-6">Jason Francisco</div>
+                        <div className="Sans'] text-[#97989f] font-['Work font-medium leading-6">Jason Francisco</div>
                     </div>
                     <div className="Sans'] text-[#97989f] font-['Work leading-6">August 20, 2022</div>
                 </div>
@@ -30,7 +30,7 @@ export default function AllPost(){
                     <div className="flex items-center gap-8 self-stretch title-1 Sans'] text-black font-['Work text-2xl font-bold leading-7">
                         Latest Post
                     </div>
-
+                    
                  <BlogList />
 
 
