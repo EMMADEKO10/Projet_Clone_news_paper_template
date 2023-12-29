@@ -5,8 +5,55 @@
   
 } */
 
+/* .belcheck{
+background-image: url("src/images/cnn-remporte-top-food-nourriture-saine-typique-indonesienne-souvent-appelee-gado-gado-lotek-se-compose-divers-legumes-oeufs-tempeh-lontong-sauce-aux-arachides-cuisine-rue_954783-671.jpg");
+} */
+
 div{
   border : 1px solid #ccc;
 color :blue; 
 }
 
+.frame_209 {
+  gap: 118px;
+}
+
+.frame_208 {
+  gap: 21px;
+}
+
+.placeholder {
+  flex: 1 0 0;
+}
+
+.frame_205 {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
+.content-1 {
+  gap: 100px;
+}
+
+.m-newsletter {
+  gap: 30px;
+}
+
+.placeholder-1 {
+  flex: 1 0 0;
+}
+
+.logo-1 {
+  fill: #FFF;
+}
+
+.link-1 {
+  flex: 1 0 0;
+}
+
+.content-5 {
+  box-shadow: 0px 12px 24px -6px rgba(24, 26, 42, 0.12);
+}
+
+.title-1 {
+  flex: 1 0 0;
+}
